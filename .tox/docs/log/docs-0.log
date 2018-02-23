@@ -1,0 +1,9 @@
+actionid: docs
+msg: getenv
+cmdargs: ['/home/u54887/PycharmProjects/tox-test/ENV/bin/python2', '-m', 'virtualenv', '--python', '/home/u54887/PycharmProjects/tox-test/ENV/bin/python2.7', 'docs']
+
+Using real prefix '/usr'
+New python executable in /home/u54887/PycharmProjects/ToxProject/.tox/docs/bin/python2.7
+Also creating executable in /home/u54887/PycharmProjects/ToxProject/.tox/docs/bin/python
+Installing setuptools, pip, wheel...done.
+Running virtualenv with interpreter /home/u54887/PycharmProjects/tox-test/ENV/bin/python2.7

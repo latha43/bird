@@ -1,0 +1,43 @@
+actionid: py26
+msg: installpkg
+cmdargs: ['/home/u54887/PycharmProjects/ToxProject/.tox/py26/bin/pip', 'install', '/home/u54887/PycharmProjects/ToxProject/.tox/dist/foo-0.0.0.zip']
+
+DEPRECATION: Python 2.6 is no longer supported by the Python core team, please upgrade your Python. A future version of pip will drop support for Python 2.6
+Processing ./.tox/dist/foo-0.0.0.zip
+Building wheels for collected packages: foo
+  Running setup.py bdist_wheel for foo: started
+  Running setup.py bdist_wheel for foo: finished with status 'error'
+  Complete output from command /home/u54887/PycharmProjects/ToxProject/.tox/py26/bin/python2.6 -u -c "import setuptools, tokenize;__file__='/tmp/pip-bXGqJg-build/setup.py';f=getattr(tokenize, 'open', open)(__file__);code=f.read().replace('\r\n', '\n');f.close();exec(compile(code, __file__, 'exec'))" bdist_wheel -d /tmp/tmpho0H5opip-wheel- --python-tag cp26:
+  Traceback (most recent call last):
+    File "<string>", line 1, in <module>
+    File "/tmp/pip-bXGqJg-build/setup.py", line 7, in <module>
+      version='0.0.0',
+    File "/usr/lib64/python2.6/distutils/core.py", line 138, in setup
+      ok = dist.parse_command_line()
+    File "/home/u54887/PycharmProjects/ToxProject/.tox/py26/lib/python2.6/site-packages/setuptools/dist.py", line 439, in parse_command_line
+      result = _Distribution.parse_command_line(self)
+    File "/usr/lib64/python2.6/distutils/dist.py", line 460, in parse_command_line
+      args = self._parse_command_opts(parser, args)
+    File "/home/u54887/PycharmProjects/ToxProject/.tox/py26/lib/python2.6/site-packages/setuptools/dist.py", line 754, in _parse_command_opts
+      nargs = _Distribution._parse_command_opts(self, parser, args)
+    File "/usr/lib64/python2.6/distutils/dist.py", line 518, in _parse_command_opts
+      cmd_class = self.get_command_class(command)
+    File "/home/u54887/PycharmProjects/ToxProject/.tox/py26/lib/python2.6/site-packages/setuptools/dist.py", line 574, in get_command_class
+      self.cmdclass[command] = cmdclass = ep.load()
+    File "/home/u54887/PycharmProjects/ToxProject/.tox/py26/lib/python2.6/site-packages/pkg_resources/__init__.py", line 2422, in load
+      return self.resolve()
+    File "/home/u54887/PycharmProjects/ToxProject/.tox/py26/lib/python2.6/site-packages/pkg_resources/__init__.py", line 2428, in resolve
+      module = __import__(self.module_name, fromlist=['__name__'], level=0)
+    File "/home/u54887/PycharmProjects/ToxProject/.tox/py26/lib/python2.6/site-packages/wheel/bdist_wheel.py", line 407
+      ignore=lambda x, y: {'PKG-INFO', 'requires.txt', 'SOURCES.txt',
+                                     ^
+  SyntaxError: invalid syntax
+  
+  ----------------------------------------
+  Failed building wheel for foo
+  Running setup.py clean for foo
+Failed to build foo
+Installing collected packages: foo
+  Running setup.py install for foo: started
+    Running setup.py install for foo: finished with status 'done'
+Successfully installed foo-0.0.0

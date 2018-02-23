@@ -1,0 +1,15 @@
+actionid: py27
+msg: installpkg
+cmdargs: ['/home/u54887/PycharmProjects/ToxProject/.tox/py27/bin/pip', 'install', '-U', '--no-deps', '/home/u54887/PycharmProjects/ToxProject/.tox/dist/foo-0.0.0.zip']
+
+Processing ./.tox/dist/foo-0.0.0.zip
+Building wheels for collected packages: foo
+  Running setup.py bdist_wheel for foo: started
+  Running setup.py bdist_wheel for foo: finished with status 'done'
+  Stored in directory: /home/u54887/.cache/pip/wheels/2d/0c/34/e51ba30b9c0eb753c37e15c5de73dbc8d2c6be18a5e1743038
+Successfully built foo
+Installing collected packages: foo
+  Found existing installation: foo 0.0.0
+    Uninstalling foo-0.0.0:
+      Successfully uninstalled foo-0.0.0
+Successfully installed foo-0.0.0

@@ -1,0 +1,9 @@
+actionid: py25
+msg: getenv
+cmdargs: ['/home/u54887/PycharmProjects/ENV/bin/python2', '-m', 'virtualenv', '--python', '/home/u54887/PycharmProjects/ENV/bin/python2', 'py25']
+
+Already using interpreter /home/u54887/PycharmProjects/ENV/bin/python2
+Using real prefix '/usr'
+New python executable in /home/u54887/PycharmProjects/ToxProject/.tox/py25/bin/python2
+Also creating executable in /home/u54887/PycharmProjects/ToxProject/.tox/py25/bin/python
+Installing setuptools, pip, wheel...done.

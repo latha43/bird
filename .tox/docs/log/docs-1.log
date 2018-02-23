@@ -1,0 +1,18 @@
+actionid: docs
+msg: getenv
+cmdargs: ['/home/u54887/PycharmProjects/ToxProject/.tox/docs/bin/pip', 'install', 'pytest']
+
+Collecting pytest
+  Using cached pytest-3.4.0-py2.py3-none-any.whl
+Collecting six>=1.10.0 (from pytest)
+  Using cached six-1.11.0-py2.py3-none-any.whl
+Collecting funcsigs; python_version < "3.0" (from pytest)
+  Using cached funcsigs-1.0.2-py2.py3-none-any.whl
+Collecting pluggy<0.7,>=0.5 (from pytest)
+Collecting py>=1.5.0 (from pytest)
+  Using cached py-1.5.2-py2.py3-none-any.whl
+Collecting attrs>=17.2.0 (from pytest)
+  Using cached attrs-17.4.0-py2.py3-none-any.whl
+Requirement already satisfied: setuptools in ./.tox/docs/lib/python2.7/site-packages (from pytest)
+Installing collected packages: six, funcsigs, pluggy, py, attrs, pytest
+Successfully installed attrs-17.4.0 funcsigs-1.0.2 pluggy-0.6.0 py-1.5.2 pytest-3.4.0 six-1.11.0
